@@ -1,0 +1,74 @@
+/* Start Body */
+body { 
+    background : #19CF7C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 16px;
+    line-height: 1,5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/*Start Debug */
+.bg-aquamarine {
+    background-color: aquamarine;
+}
+.bg-bisque {
+    background-color: burlywood;
+}
+/* end Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+
+/* End Container */
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(224, 67, 88);
+    font-size: 50px;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(218, 6, 6);
+
+}
+
+/* start logo */
+.logo {
+    text-align: center;
+}
+/* end logo */
+
+/* start menu primer */
+.menu-primer ul {
+    background-color: rgb(28, 156, 71);
+    text-align: left;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px -1px rgba(0, 0, 0, .2),
+        0 6px 10px rgba (0, 0, 0, .14),
+        0 1px 18px rgba(0, 0, 0, .12);
+}
+.menu-primer li {
+    border-right:  1px solid coral;
+    display: inline-block;
+    margin : 0 -4px;
+
+}
+
+.menu-primer ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 20px;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* end menu primer */
+
